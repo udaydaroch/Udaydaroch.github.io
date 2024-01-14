@@ -1,6 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("PolarisAccountInsightsRoot.entrypoint",["JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){return{queries:{}}},root:c("JSResourceForInteraction")("PolarisAccountInsightsRoot.react").__setRef("PolarisAccountInsightsRoot.entrypoint")};g["default"]=a}),98);
-__d("PolarisArchivePageRoot.entrypoint",["JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){return{queries:{}}},root:c("JSResourceForInteraction")("PolarisArchivePageRoot.react").__setRef("PolarisArchivePageRoot.entrypoint")};g["default"]=a}),98);
-__d("PolarisProfileFollowRoot.entrypoint",["JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){return{queries:{}}},root:c("JSResourceForInteraction")("PolarisProfileFollowRoot.react").__setRef("PolarisProfileFollowRoot.entrypoint")};g["default"]=a}),98);
-__d("PolarisAccountSettingsRoot.entrypoint",["JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){return{}},root:c("JSResourceForInteraction")("PolarisAccountSettingsRoot.react").__setRef("PolarisAccountSettingsRoot.entrypoint")};g["default"]=a}),98);
