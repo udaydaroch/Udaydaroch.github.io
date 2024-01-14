@@ -1,0 +1,115 @@
+.c-item{
+  margin-top: 100px;
+  height: auto;
+}
+.c-img {
+  
+  height: 100%;
+  object-fit: cover;
+}
+body {
+  background-color: rgb(213, 230, 230);
+  min-width:1200px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.UCISA {
+  width: 400px;
+  height:130px; 
+  color:rgb(0, 0, 0);
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+}
+.UCISA img {
+  height: 100px;
+  padding-left: 20px;
+}
+
+.main-div {
+
+    font-size: 4em; /* Adjust font size */
+    text-align: center;
+    padding-top: 20px;
+    color: #282c34; /* Set text color */
+}
+.carousel-item img {
+  border-radius: 20px;
+  max-width: 70%; /* Adjust the percentage as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: auto; /* Center the image */
+}
+
+
+
+
+.navbar-nav {
+
+  font-size: 30px; 
+}
+
+
+.home__title {
+  padding-top: 50px;
+  font-size: 50px;
+  text-align:start;
+  color: grey;
+}
+
+.circular--portrait { 
+  position: relative; 
+  width: 600px; 
+  height: 700px; 
+  overflow: hidden;
+  border-radius: 50%; 
+  background-color: black;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 50px .4px black;
+  margin-right: 10px;
+
+} 
+
+.aboutme {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.aboutme h2 {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.aboutme h2 span {
+  color: #6a5ab1;
+  margin-left: 15px;
+  font-family:mv boli;
+}
+.aboutme h2 span::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #4f38b3;
+  display: block;
+  position: relative;
+  bottom: 15px;
+}
+
+.circular--portrait img { 
+  
+  width: 100%; 
+  height: auto;
+  padding-bottom: 20px;
+  background-color: grey; 
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
