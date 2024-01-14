@@ -9,7 +9,7 @@
 }
 body {
   background-color: rgb(213, 230, 230);
-  min-width:1000px;
+  min-width:1500px;
 }
 
 .navbar-brand {
@@ -36,44 +36,39 @@ body {
     padding-top: 20px;
     color: #282c34; /* Set text color */
 }
-.carousel-item img {
-  border-radius: 20px;
-  max-width: 70%; /* Adjust the percentage as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin: auto; /* Center the image */
-}
-
 
 
 
 .navbar-nav {
-
   font-size: 30px; 
 }
 
 
-.home__title {
-  padding-top: 50px;
-  font-size: 50px;
-  text-align:start;
-  color: grey;
-}
+
 
 .circular--portrait { 
   position: relative; 
-  width: 600px; 
-  height: 700px; 
+  width: 400px; 
+  height: 600px; 
   overflow: hidden;
+  margin-top: 50px;
   border-radius: 50%; 
-  background-color: black;
-  margin-top: 20px;
-  padding-bottom: 20px;
+  background-color: #000000;
+  margin-bottom: 100px;
   box-shadow: 2px 2px 50px .4px black;
-  margin-right: 10px;
-
+  margin-left: 50px;
 } 
 
+
+.carousel-item img {
+  border-radius: 20px;
+  max-width: 70%; /* Adjust the percentage as needed */
+  padding-bottom: 300px;
+}
+
 .aboutme {
+  margin-top: 300px;
+  margin-bottom: 300px;
   width: 100%;
   padding: 70px 0;
 }
@@ -86,11 +81,45 @@ body {
   margin-bottom: 30px;
 }
 
+.home_top_info {
+  position: relative;
+  text-align: center;
+  color: #fff; /* Set text color */
+  top: -100px;
+  transform: transform 0.3;
+}
+
+
+.home_top_info:hover {
+  transform: scale(1.1);
+  transform: rotate(-20deg);
+}
+
+.background-image {
+  z-index: -1;
+  position: absolute;
+  top: -95px;
+  left:-100px;
+  width: 210%;
+  height: 300%;
+  transform: rotate(15deg);
+ 
+}
+
+
+.home__title {
+  z-index: 1;
+  font-size: 35px;
+  text-align:start;
+  color: rgb(123, 115, 115);
+}
+
 .aboutme h2 span {
   color: #6a5ab1;
   margin-left: 15px;
   font-family:mv boli;
 }
+
 .aboutme h2 span::after {
   content: '';
   width: 100%;
@@ -101,13 +130,13 @@ body {
   bottom: 15px;
 }
 
-.circular--portrait img { 
-  
+.circular--portrait img {  
   width: 100%; 
   height: auto;
   padding-bottom: 20px;
   background-color: grey; 
 }
+
 .home {
     display: flex;
     align-items: center;
