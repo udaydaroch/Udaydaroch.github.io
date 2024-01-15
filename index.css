@@ -24,6 +24,10 @@ body {
   margin: auto;
   border-radius: 20px;
 }
+
+.dropdown-menu {
+  text-align:center;
+}
 .UCISA img {
   height: 100px;
   padding-left: 20px;
@@ -43,9 +47,6 @@ body {
   font-size: 30px; 
 }
 
-
-
-
 .circular--portrait { 
   position: relative; 
   width: 400px; 
@@ -55,11 +56,21 @@ body {
   border-radius: 50%; 
   background-color: #000000;
   margin-bottom: 100px;
-  box-shadow: 2px 2px 50px .4px black;
+  box-shadow: 2px 2px 50px .2px black;
   margin-left: 50px;
 } 
 
 
+.table-image{
+  height: 200px;
+  z-index: -2;
+  position: absolute;
+  top:130px;
+  left:-300px;
+  height: 500px;
+  width: 600px;
+  transform: rotate(2.5deg);
+}
 .carousel-item img {
   border-radius: 20px;
   max-width: 70%; 
@@ -67,14 +78,13 @@ body {
 }
 
 .aboutme {
-  margin-top: 300px;
   margin-bottom: 300px;
   width: 100%;
   padding: 70px 0;
 }
 
 .aboutme h2 {
-  font-size: 55px;
+  font-size: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,34 +95,155 @@ body {
   position: relative;
   text-align: center;
   color: #fff; /* Set text color */
-  top: -100px;
-  transform: transform 0.3;
+  top: -200px;
+  right:100px;
 }
 
-
-.home_top_info:hover {
-  transform: scale(1.1);
-  transform: rotate(-20deg);
-}
 
 .background-image {
-  z-index: -1;
   position: absolute;
-  top: -95px;
-  left:-100px;
-  width: 210%;
-  height: 300%;
-  transform: rotate(15deg);
- 
+  top:-90px;
+  left:-250px;
+  width: 420px;
+  height: 410px;
+  /* Increased transition duration for smoother effect */
 }
+.computer {
+  transform: rotate(-.6deg);
+  transition: transform 0.3s; 
+}
+.computer:hover {
+  transform: scale(1.02) ; /* Combined scale and rotate transforms */
+}
+
 
 
 .home__title {
   z-index: 1;
-  font-size: 35px;
+  font-size: 25px;
+  margin-left: -200px;
+  margin-top: 20px;
+  margin-right: 200px;
   text-align:start;
-  color: rgb(123, 115, 115);
+  color: rgb(90, 83, 83);
+  transform: rotate(-16deg);
 }
+
+.otherbackground {
+  z-index: -1;
+  height: 800px;
+  width: 700px;
+  z-index: 2;
+  margin-right: 200px;
+}
+
+.myStuff {
+  position: relative;
+}
+
+.myStuff a {
+  position: absolute;
+  color: #ffffff; /* Adjust the color as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.me {
+  top: 575px; 
+  left: 245px; 
+  width: 160px;
+  text-align: center;
+  border-radius: 20px;
+  border-color: #282c34;
+  background-color: rgb(221, 87, 87);
+  transform: rotate(-17deg);
+}
+
+.cricket {
+  top: 350px; /* Adjust the top position */
+  left: 465px;
+  height: 50px; 
+  background-color: rgb(118, 230, 144) ;
+  transform: rotate(20deg);
+}
+
+.python {
+  position: relative;
+  top: 300px;
+  height: 200px;
+  transform: rotate(-40deg);
+}
+
+.C {
+  position: relative;
+  top: 1000px;
+  height: 165px;
+  margin-left: 70px;
+  transform: rotate(20deg);
+}
+
+.JS {
+  position: relative;
+  height: 200px;
+  right: -190px;
+  top: -170px;
+  margin-left: 70px;
+  transform: rotate(-20deg);
+}
+
+.J {
+  position: relative;
+  right: 100px;
+  height: 200px;
+  margin-left: 70px;
+  transform: rotate(7deg);
+}
+
+.CSS {
+  position: relative;
+  top: 800px;
+  right: -400px;
+  height: 200px;
+  margin-left: 70px;
+  margin-top: 14px;
+  transform: rotate(-20deg);
+}
+.HTML{
+  position: relative;
+  height: 200px;
+  right: 100px;
+  margin-top: 15px;
+  transform: rotate(20deg);
+}
+.ucisa {
+  top: 200px; 
+  left: 460px; 
+  text-align: center;
+  height: 50px;
+  width:90px;
+  background-color: rgb(59, 59, 248);
+  transform: rotate(20deg);
+}
+
+.ucisa, .cricket, .me {
+  transition: transform 0.3s; 
+}
+.ucisa:hover, .cricket:hover, .me:hover {
+  transform: rotate(20deg);
+  transform: scale(1.5) ; 
+}
+.aboutmeTag{
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  transform: rotate(4deg);
+  transform-origin: bottom right;
+}
+
 
 .aboutme h2 span {
   color: #6a5ab1;
