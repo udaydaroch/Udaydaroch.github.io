@@ -1,12 +1,7 @@
-let next = document.querySelector('.next')
-let prev = document.querySelector('.prev')
+const cricketBall = document.getElementById('ball');
+let currentImageIndex = 2;
 
-next.addEventListener('click', function(){
-    let items = document.querySelectorAll('.item')
-    document.querySelector('.slide').appendChild(items[0])
-})
-
-prev.addEventListener('click', function(){
-    let items = document.querySelectorAll('.item')
-    document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
-})
+cricketBall.addEventListener('animationiteration', () => {
+  currentImageIndex = (currentImageIndex % 6) + 2; // Loop through 1 to 5
+  cricketBall.src = `CRICKETBALL/cricket (${currentImageIndex}).png`; // Change to the next image
+});

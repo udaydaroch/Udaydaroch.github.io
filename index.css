@@ -96,7 +96,7 @@ body {
   text-align: center;
   color: #fff; /* Set text color */
   top: -200px;
-  right:100px;
+  right:30px;
 }
 
 
@@ -139,6 +139,7 @@ body {
 
 .myStuff {
   position: relative;
+  margin-left: 300px;
 }
 
 .myStuff a {
@@ -171,7 +172,7 @@ body {
 
 .python {
   position: relative;
-  top: 300px;
+  top: 200px;
   height: 200px;
   transform: rotate(-40deg);
 }
@@ -187,8 +188,8 @@ body {
 .JS {
   position: relative;
   height: 200px;
-  right: -190px;
-  top: -170px;
+  right: -100px;
+  top: -190px;
   margin-left: 70px;
   transform: rotate(-20deg);
 }
@@ -216,6 +217,46 @@ body {
   right: 100px;
   margin-top: 15px;
   transform: rotate(20deg);
+}
+
+.updown {
+position: relative;
+height: 40px;
+top: 700px;
+right: -970px;
+}
+
+.updown {
+  animation-name: infiniteupdown;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all .1s;
+}
+@keyframes infiniteupdown {
+0% {
+  transform: translateY(0px);
+}
+50% {
+  transform: translateY(-80px);
+}
+100% {
+  transform: translateY(0px);
+}
+}
+.Csharp {
+  position: relative;
+  right: 1300px;
+  transform: rotate(-20deg);
+  height: 200px;
+}
+.bat {
+  position: relative;
+  height: 170px;
+  top: 630px;
+  width: 310px;
+  right: 380px;
+  transform: rotate(-80deg);
 }
 .ucisa {
   top: 200px; 
