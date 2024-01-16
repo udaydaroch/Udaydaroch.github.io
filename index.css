@@ -70,6 +70,7 @@ body {
   height: 500px;
   width: 600px;
   transform: rotate(2.5deg);
+  
 }
 .carousel-item img {
   border-radius: 20px;
@@ -81,6 +82,7 @@ body {
   margin-bottom: 300px;
   width: 100%;
   padding: 70px 0;
+  background-color: rgb(213, 213, 213);
 }
 
 .aboutme h2 {
@@ -175,6 +177,7 @@ body {
   top: 200px;
   height: 200px;
   transform: rotate(-40deg);
+  background-color: rgb(85, 97, 92);
 }
 
 .C {
@@ -182,7 +185,9 @@ body {
   top: 1000px;
   height: 165px;
   margin-left: 70px;
+  width: 170px;
   transform: rotate(20deg);
+  background-color: #6a5ab1;
 }
 
 .JS {
@@ -191,15 +196,19 @@ body {
   right: -100px;
   top: -190px;
   margin-left: 70px;
-  transform: rotate(-20deg);
+  transform: rotate(20deg);
+  background-color: rgb(206, 139, 204);
+
 }
 
 .J {
   position: relative;
+  top: 10px;
   right: 100px;
   height: 200px;
   margin-left: 70px;
   transform: rotate(7deg);
+  background-color: rgb(146, 177, 199);
 }
 
 .CSS {
@@ -209,14 +218,17 @@ body {
   height: 200px;
   margin-left: 70px;
   margin-top: 14px;
-  transform: rotate(-20deg);
+  transform: rotate(20deg);
+  background-color: rgb(203, 140, 140);
 }
 .HTML{
   position: relative;
   height: 200px;
   right: 100px;
+  top: 20px;
   margin-top: 15px;
-  transform: rotate(20deg);
+  transform: rotate(-16deg);
+  background-color: rgb(119, 192, 125);
 }
 
 .updown {
@@ -253,6 +265,7 @@ right: -970px;
   right: 1300px;
   transform: rotate(-20deg);
   height: 200px;
+  background-color: burlywood;
 }
 .bat {
   position: relative;
@@ -310,11 +323,12 @@ right: -970px;
   width: 100%; 
   height: auto;
   padding-bottom: 20px;
-  background-color: grey; 
+  background-color: rgb(227, 209, 209); 
 }
 
 .home {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+  
 }
