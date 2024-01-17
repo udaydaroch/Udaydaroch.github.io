@@ -2,6 +2,29 @@
   margin-top: 100px;
   height: auto;
 }
+
+.aboutmesection {
+  background-color: rgb(235, 235, 212);
+}
+
+.mybitemoji {
+  position:relative;
+  top: -1420px;
+  height: 400px;
+  right: -100px;
+}
+
+.mycricketsection {
+  background-color: rgb(146, 184, 219);
+}
+.AboutmePara {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  font-size: 24px;
+}
+
 .c-img {
   
   height: 100%;
@@ -79,10 +102,8 @@ body {
 }
 
 .aboutme {
-  margin-bottom: 300px;
   width: 100%;
-  padding: 70px 0;
-  background-color: rgb(213, 213, 213);
+  background-color: rgb(199, 221, 195);
 }
 
 .aboutme h2 {
