@@ -9,37 +9,38 @@
 
 .OBC {
   position: relative;
-  top: -1100px;
+  height: 200px;
+  top: -1000px;
   right: -990px;
 }
 
 .batsman {
   position: relative;
-  top: -1000px;
-  height: 400px;
-  right: 340px;
+  top: -900px;
+  height: 300px;
+  right: 240px;
 }
 
 .running{
   position: relative;
   height: 200px;
-  top: -2000px;
-  right: -400px;
+  top: -1800px;
+  right: -600px;
   transform: rotate(-30deg);
 }
 
 .dumbell {
   position: relative;
   height: 200px;
-  top:-1400px;
-  right: -100px;
+  top:-1350px;
+  right: -300px;
 }
 
 .mybitemoji {
   position:relative;
-  top: -1650px;
-  height: 450px;
-  right: -100px;
+  top: -1600px;
+  height: 300px;
+  right: -150px;
 }
 
 .mycricketsection {
@@ -68,8 +69,8 @@ body {
 }
 
 .UCISA {
-  width: 400px;
-  height:130px; 
+  width: 20px;
+  height:30px; 
   color:rgb(0, 0, 0);
   text-align: center;
   margin: auto;
@@ -80,7 +81,7 @@ body {
   text-align:center;
 }
 .UCISA img {
-  height: 100px;
+  height: 30px;
   padding-left: 20px;
 }
 
@@ -91,7 +92,6 @@ body {
     padding-top: 20px;
     color: #282c34; /* Set text color */
 }
-
 
 
 .navbar-nav {
