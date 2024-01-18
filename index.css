@@ -10,13 +10,13 @@
 .OBC {
   position: relative;
   height: 200px;
-  top: -1000px;
+  top: -630px;
   right: -990px;
 }
 
 .batsman {
   position: relative;
-  top: -900px;
+  top: -500px;
   height: 300px;
   right: 240px;
 }
@@ -24,7 +24,7 @@
 .running{
   position: relative;
   height: 200px;
-  top: -1800px;
+  top: -1400px;
   right: -600px;
   transform: rotate(-30deg);
 }
@@ -32,13 +32,13 @@
 .dumbell {
   position: relative;
   height: 200px;
-  top:-1350px;
+  top:-950px;
   right: -300px;
 }
 
 .mybitemoji {
   position:relative;
-  top: -1600px;
+  top: -1300px;
   height: 300px;
   right: -150px;
 }
