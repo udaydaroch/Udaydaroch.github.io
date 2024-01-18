@@ -7,6 +7,14 @@
   background-color: rgb(235, 235, 212);
 }
 
+.SQL {
+  position: relative;
+  height: 180px;
+  background-color: rgb(182, 185, 121);
+  top: -1750px;
+  right: 200px;
+  transform: rotate(-10deg);
+}
 .OBC {
   position: relative;
   height: 200px;
