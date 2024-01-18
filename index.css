@@ -7,10 +7,38 @@
   background-color: rgb(235, 235, 212);
 }
 
+.OBC {
+  position: relative;
+  top: -1100px;
+  right: -990px;
+}
+
+.batsman {
+  position: relative;
+  top: -1000px;
+  height: 400px;
+  right: 340px;
+}
+
+.running{
+  position: relative;
+  height: 200px;
+  top: -2000px;
+  right: -400px;
+  transform: rotate(-30deg);
+}
+
+.dumbell {
+  position: relative;
+  height: 200px;
+  top:-1400px;
+  right: -100px;
+}
+
 .mybitemoji {
   position:relative;
-  top: -1420px;
-  height: 400px;
+  top: -1650px;
+  height: 450px;
   right: -100px;
 }
 
@@ -201,6 +229,9 @@ body {
   background-color: rgb(85, 97, 92);
 }
 
+#cricket {
+  font-size: 70px;
+}
 .C {
   position: relative;
   top: 1000px;
@@ -232,6 +263,9 @@ body {
   background-color: rgb(146, 177, 199);
 }
 
+#me {
+  font-size: 70px;
+}
 .CSS {
   position: relative;
   top: 800px;
@@ -327,6 +361,7 @@ right: -970px;
 .aboutme h2 span {
   color: #6a5ab1;
   margin-left: 15px;
+  font-size: 100px;
   font-family:mv boli;
 }
 
