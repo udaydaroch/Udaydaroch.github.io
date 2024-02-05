@@ -57,7 +57,7 @@
   font-size: 15px;
 }
 
-/* Media query for smaller screens */
+
 @media (min-width: 767px) {
   .AboutmePara {
     font-size: 1.4em; /* Adjust the font size for smaller screens */
