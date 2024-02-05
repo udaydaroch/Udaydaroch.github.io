@@ -20,7 +20,11 @@
   justify-content: center;
 }
 
-
+.aboutmesection {
+  text-align: center;
+  align-items: center;
+  justify-content:center;
+}
 .custom-link {
   margin-left: -2px;
   margin-right: 20px;
