@@ -1,298 +1,105 @@
-.c-item{
-  margin-top: 100px;
-  height: auto;
+.text-container {
+  max-width: 200px;
+  line-height: 1.4;
+  white-space: nowrap;
 }
 
-.aboutmesection {
-  background-color: rgb(235, 235, 212);
+@media (min-width: 768px) {
+  /* Apply margin-top: -100px; for screens larger than 768px */
+  .text-container {
+      margin-top: -100px;
+  }
 }
 
-.SQL {
+.newImage {
+  height: 76px;
+}
+.aboutme h2 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.custom-link {
+  margin-left: -2px;
+  margin-right: 20px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
   position: relative;
-  height: 180px;
-  background-color: rgb(182, 185, 121);
-  top: -1750px;
-  right: 200px;
-  transform: rotate(-10deg);
-}
-.OBC {
-  position: relative;
-  height: 200px;
-  top: -650px;
-  right: -990px;
+  font-size: 20px;
 }
 
-.batsman {
-  position: relative;
-  top: -500px;
-  height: 300px;
-  right: 240px;
+.custom-link .hover-effect {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #007BFF;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
 }
 
-.running{
-  position: relative;
-  height: 200px;
-  top: -1400px;
-  right: -600px;
-  transform: rotate(-30deg);
+.custom-link:hover .hover-effect {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
-.dumbell {
-  position: relative;
-  height: 200px;
-  top:-950px;
-  right: -300px;
-}
 
-.mybitemoji {
-  position:relative;
-  top: -1250px;
-  height: 350px;
-  right: -150px;
-}
-
-.mycricketsection {
-  background-color: rgb(146, 184, 219);
-}
 .AboutmePara {
   text-align: center;
   align-items: center;
   justify-content: center;
   margin: 8px;
-  font-size: 24px;
+  font-size: 10px;
 }
 
-.c-img {
-  
-  height: 100%;
-  object-fit: cover;
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .AboutmePara {
+    font-size: 1sem; /* Adjust the font size for smaller screens */
+  }
 }
+
+.text {
+  align-self: center;
+  text-align: flex;
+  margin-top: -80px;
+  margin-left: 20px;
+}
+
+.topsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  max-width: 60%;
+}
+
+.topsection p {
+  font-size: 1.5em; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margins */
+}
+
+
 body {
-  background-color: rgb(171, 210, 210);
-  max-width: 1600px;
-  min-width: 1500px;
+  padding-top: 100px;
 }
 
 .navbar-brand {
   font-size: 30px;
 }
 
-.UCISA {
-  width: 20px;
-  height:30px; 
-  color:rgb(0, 0, 0);
-  text-align: center;
-  margin: auto;
-  border-radius: 20px;
-}
 
 .dropdown-menu {
   text-align:center;
 }
-.UCISA img {
-  height: 30px;
-  padding-left: 20px;
-}
-
-.main-div {
-
-    font-size: 4em; /* Adjust font size */
-    text-align: center;
-    padding-top: 20px;
-    color: #282c34; /* Set text color */
-}
-
 
 .navbar-nav {
   font-size: 30px; 
-}
-
-.circular--portrait { 
-  position: relative; 
-  width: 400px; 
-  height: 600px; 
-  overflow: hidden;
-  margin-top: 50px;
-  border-radius: 50%; 
-  background-color: #000000;
-  margin-bottom: 100px;
-  box-shadow: 2px 2px 50px .2px black;
-  margin-left: 50px;
-} 
-
-
-.table-image{
-  height: 200px;
-  z-index: -2;
-  position: absolute;
-  top:130px;
-  left:-300px;
-  height: 500px;
-  width: 600px;
-  transform: rotate(2.5deg);
-  
-}
-.carousel-item img {
-  border-radius: 20px;
-  max-width: 70%; 
-  padding-bottom: 300px;
-}
-
-.aboutme {
-  width: 100%;
-  background-color: rgb(199, 221, 195);
-}
-
-.aboutme h2 {
-  font-size: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.home_top_info {
-  position: relative;
-  text-align: center;
-  color: #fff; /* Set text color */
-  top: -200px;
-  right:30px;
-}
-
-
-.background-image {
-  position: absolute;
-  top:-90px;
-  left:-250px;
-  width: 420px;
-  height: 410px;
-  /* Increased transition duration for smoother effect */
-}
-.computer {
-  transform: rotate(-.6deg);
-  transition: transform 0.3s; 
-}
-.computer:hover {
-  transform: scale(1.02) ; /* Combined scale and rotate transforms */
-}
-
-
-
-.home__title {
-  z-index: 1;
-  font-size: 25px;
-  margin-left: -200px;
-  margin-top: 20px;
-  margin-right: 200px;
-  text-align:start;
-  color: rgb(90, 83, 83);
-  transform: rotate(-16deg);
-}
-
-.otherbackground {
-  z-index: -1;
-  height: 800px;
-  width: 700px;
-  z-index: 2;
-  margin-right: 200px;
-}
-
-.myStuff {
-  position: relative;
-  margin-left: 300px;
-}
-
-.myStuff a {
-  position: absolute;
-  color: #ffffff; /* Adjust the color as needed */
-  font-size: 20px; /* Adjust the font size as needed */
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.me {
-  top: 575px; 
-  left: 245px; 
-  width: 160px;
-  text-align: center;
-  border-radius: 20px;
-  border-color: #282c34;
-  background-color: rgb(221, 87, 87);
-  transform: rotate(-17deg);
-}
-
-.cricket {
-  top: 350px; /* Adjust the top position */
-  left: 465px;
-  height: 50px; 
-  background-color: rgb(118, 230, 144) ;
-  transform: rotate(20deg);
-}
-
-.python {
-  position: relative;
-  top: 200px;
-  height: 200px;
-  transform: rotate(-40deg);
-  background-color: rgb(85, 97, 92);
-}
-
-#cricket {
-  font-size: 70px;
-}
-.C {
-  position: relative;
-  top: 1000px;
-  height: 165px;
-  margin-left: 70px;
-  width: 170px;
-  transform: rotate(20deg);
-  background-color: #6a5ab1;
-}
-
-.JS {
-  position: relative;
-  height: 200px;
-  right: -100px;
-  top: -190px;
-  margin-left: 70px;
-  transform: rotate(20deg);
-  background-color: rgb(206, 139, 204);
-
-}
-
-.J {
-  position: relative;
-  top: 10px;
-  right: 100px;
-  height: 200px;
-  margin-left: 70px;
-  transform: rotate(7deg);
-  background-color: rgb(146, 177, 199);
-}
-
-#me {
-  font-size: 70px;
-}
-.CSS {
-  position: relative;
-  top: 800px;
-  right: -400px;
-  height: 200px;
-  margin-left: 70px;
-  margin-top: 14px;
-  transform: rotate(20deg);
-  background-color: rgb(203, 140, 140);
-}
-.HTML{
-  position: relative;
-  height: 200px;
-  right: 100px;
-  top: 20px;
-  margin-top: 15px;
-  transform: rotate(-16deg);
-  background-color: rgb(119, 192, 125);
 }
 
 .updown {
@@ -321,79 +128,4 @@ right: -970px;
 100% {
   transform: translateY(0px) rotate(270deg);
 }
-}
-
-
-.Csharp {
-  position: relative;
-  right: 1300px;
-  transform: rotate(-20deg);
-  height: 200px;
-  background-color: burlywood;
-}
-.bat {
-  position: relative;
-  height: 170px;
-  top: 630px;
-  width: 310px;
-  right: 395px;
-  transform: rotate(-80deg);
-}
-.ucisa {
-  top: 200px; 
-  left: 460px; 
-  text-align: center;
-  height: 50px;
-  width:90px;
-  background-color: rgb(59, 59, 248);
-  transform: rotate(20deg);
-}
-
-.ucisa, .cricket, .me {
-  transition: transform 0.3s; 
-}
-.ucisa:hover, .cricket:hover, .me:hover {
-  transform: rotate(20deg);
-  transform: scale(1.5) ; 
-}
-.aboutmeTag{
-  font-size: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  transform: rotate(4deg);
-  transform-origin: bottom right;
-}
-
-
-.aboutme h2 span {
-  color: #6a5ab1;
-  margin-left: 15px;
-  font-size: 100px;
-  font-family:mv boli;
-}
-
-.aboutme h2 span::after {
-  content: '';
-  width: 100%;
-  height: 2px;
-  background: #4f38b3;
-  display: block;
-  position: relative;
-  bottom: 15px;
-}
-
-.circular--portrait img {  
-  width: 100%; 
-  height: auto;
-  padding-bottom: 20px;
-  background-color: rgb(227, 209, 209); 
-}
-
-.home {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  
 }
