@@ -69,8 +69,8 @@
 }
 body {
   background-color: rgb(171, 210, 210);
-  min-width:1550px;
-  max-width: 1400px;
+  max-width: 1600px;
+  min-width: 1500px;
 }
 
 .navbar-brand {
