@@ -20,11 +20,7 @@
   justify-content: center;
 }
 
-.aboutmesection {
-  text-align: center;
-  align-items: center;
-  justify-content:center;
-}
+
 .custom-link {
   margin-left: -2px;
   margin-right: 20px;
@@ -58,13 +54,13 @@
   align-items: center;
   justify-content: center;
   margin: 8px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 /* Media query for smaller screens */
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .AboutmePara {
-    font-size: 1sem; /* Adjust the font size for smaller screens */
+    font-size: 1.4em; /* Adjust the font size for smaller screens */
   }
 }
 
