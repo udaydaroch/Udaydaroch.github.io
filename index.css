@@ -2,12 +2,28 @@
   max-width: 200px;
   line-height: 1.4;
   white-space: nowrap;
+  font-size: 10px;
+}
+
+
+
+.custom-link {
+  margin-left: -2px;
+  margin-right: 20px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  font-size: 10px;
 }
 
 @media (min-width: 768px) {
-  /* Apply margin-top: -100px; for screens larger than 768px */
+  .custom-link {
+    font-size: 20px;
+  }
   .text-container {
       margin-top: -100px;
+      font-size: 20px;
   }
 }
 
@@ -20,16 +36,6 @@
   justify-content: center;
 }
 
-
-.custom-link {
-  margin-left: -2px;
-  margin-right: 20px;
-  color: #007BFF;
-  text-decoration: none;
-  font-weight: bold;
-  position: relative;
-  font-size: 20px;
-}
 
 .custom-link .hover-effect {
   position: absolute;
