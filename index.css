@@ -149,3 +149,10 @@ body {
     transform: translateY(0px) rotate(270deg);
   }
 }
+
+
+#me, #cricket{
+  text-align: center;
+  font-size: 50px;
+}
+
