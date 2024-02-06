@@ -1,6 +1,10 @@
 
 body {
   margin-top: 10px;
+  background: linear-gradient(to top right, #b3cdea, #ffffff,  #eed2d4);
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for a card-like appearance */
+  box-shadow: 0 4px 8px rgba(0, 0.1, 0.1, 0.1); /* Add box shadow for depth */
 }
 .custom-link {
   margin-right: 20px;
@@ -22,7 +26,7 @@ body {
 }
 
 .text-container {
-  margin-top: 10px;
+  margin-top: 20px;
   justify-content: center;
   display: center;
   font-size: 24px;
@@ -30,6 +34,12 @@ body {
 }
 .aboutme h2 {
   text-align: center;
+}
+#first-section {
+ 
+  margin-top: 50x;
+  padding: 1px;
+  
 }
 
 .custom-link .hover-effect {
@@ -57,6 +67,22 @@ body {
   margin: 8px;
   font-size: 35px;
 }
+.aboutmesection {
+  background-color: white;
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.mycricketsection {
+  background-color: white;
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+};
+
+
 
 .text {
   align-self: center;
