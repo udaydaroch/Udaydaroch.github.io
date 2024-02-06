@@ -57,7 +57,7 @@ body {
 
 .text {
   align-self: center;
-  text-align: left; /* Adjusted from 'flex' */
+  text-align: left; 
   margin-top: -80px;
 }
 
