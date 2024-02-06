@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   
-  <title>HOM</title>
+  <title>home page</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -50,63 +50,57 @@
       </div>
     </div>
   </nav>
+
   <section class="container mt-4">
-  
-    <div class="row">
-        <div class="col-md-14 offset-md-1 d-flex justify-content-center order: -1" style="color: #8B4513;">
-          <div class="text">
-            <div class="text-container">
-              <p style="font-size: 2em; margin-bottom: 5px;">Hi, my name is </p>
-              <p style="font-size: 2em; margin-bottom: 5px;">Uday Daroch.</p>
-              <p style="font-size: 2em; margin-bottom: 5px;">I am a third-year </p> 
-              <p style="font-size: 2em; margin-bottom: 10px;">software engineer.</p>
-              <div class="row">
-                <div class="col">
-                  <a href="#" onclick="scrollToSection('me')" class="custom-link">About me
-                    <span class="hover-effect"></span>
-                  </a>
-                  <a href="https://www.instagram.com/ucisanz/" class="custom-link">UCISA
-                    <span class="hover-effect"></span>
-                  </a>
-                  <a href="#"  onclick="scrollToSection('cricket')" class="custom-link">Cricket
-                    <span class="hover-effect"></span>
-                  </a>
-                </div>
+    <div id="first-section" class="row">
+      <div class="col-md-6 order-md-2 d-flex justify-content-center" style="color: #8B4513;">
+        <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1"
+          width="260%" height="80%" style="max-width: 1000px; order: 1;">
+          <defs>
+              <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                  <stop id="stop1" stop-color="rgba(225.943, 225.943, 225.943, 1)" offset="0%"></stop>
+                  <stop id="stop2" stop-color="rgba(0, 156.081, 255, 0.73)" offset="100%"></stop>
+              </linearGradient>
+          </defs>
+          <mask id="mask1" mask-type="alpha">
+              <path fill="url(#sw-gradient)"
+                  d="M22.3,-29.3C29,-25.9,34.5,-19.4,37.9,-11.6C41.4,-3.8,42.9,5.3,40.6,13.4C38.3,21.6,32.2,28.8,24.8,34.2C17.4,39.7,8.7,43.4,-0.5,44.1C-9.7,44.8,-19.3,42.4,-24.9,36.3C-30.6,30.3,-32.1,20.6,-33.4,12C-34.6,3.3,-35.6,-4.3,-34.8,-12.8C-34,-21.3,-31.6,-30.6,-25.5,-34.3C-19.4,-37.9,-9.7,-35.7,-0.9,-34.4C7.8,-33.2,15.7,-32.8,22.3,-29.3Z"
+                  width="100%" height="100%" transform="translate(50 50)" stroke-width="0"
+                  style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
+          </mask>
+          <g mask="url(#mask1)">
+              <path fill="url(#sw-gradient)"
+                  d="M22.3,-29.3C29,-25.9,34.5,-19.4,37.9,-11.6C41.4,-3.8,42.9,5.3,40.6,13.4C38.3,21.6,32.2,28.8,24.8,34.2C17.4,39.7,8.7,43.4,-0.5,44.1C-9.7,44.8,-19.3,42.4,-24.9,36.3C-30.6,30.3,-32.1,20.6,-33.4,12C-34.6,3.3,-35.6,-4.3,-34.8,-12.8C-34,-21.3,-31.6,-30.6,-25.5,-34.3C-19.4,-37.9,-9.7,-35.7,-0.9,-34.4C7.8,-33.2,15.7,-32.8,22.3,-29.3Z"
+                  width="100%" height="10%" transform="translate(50 50)" stroke-width="0"
+                  style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
+              <image class="newImage" x="37" y="16" href="mybitemoji.png"></image>
+          </g>
+      </svg>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="text">
+          <div class="text-container">
+            <p style="font-size: 2em; margin-bottom: 5px;">Hi, my name is </p>
+            <p style="font-size: 2em; margin-bottom: 5px;">Uday Daroch.</p>
+            <p style="font-size: 2em; margin-bottom: 5px;">I am a third-year </p>
+            <p style="font-size: 2em; margin-bottom: 10px;">software engineer.</p>
+            <div class="row">
+              <div class="col">
+                <a onclick="scrollToSection('me')" class="custom-link" style="margin-left: 20px;">About me
+                  <span class="hover-effect"></span>
+                </a>
+                <a href="https://www.instagram.com/ucisanz/" class="custom-link">UCISA
+                  <span class="hover-effect"></span>
+                </a>
+                <a onclick="scrollToSection('cricket')" class="custom-link">Cricket
+                  <span class="hover-effect"></span>
+                </a>
               </div>
-              
-            </div> 
+            </div>
+          </div>
         </div>
-
-
-          <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1"
-                width="250%" height="80%" style="max-width: 800px; order: 1;">
-                <defs>
-                    <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
-                        <stop id="stop1" stop-color="rgba(225.943, 225.943, 225.943, 1)" offset="0%"></stop>
-                        <stop id="stop2" stop-color="rgba(0, 156.081, 255, 0.73)" offset="100%"></stop>
-                    </linearGradient>
-                </defs>
-                <mask id="mask1" mask-type="alpha">
-                    <path fill="url(#sw-gradient)"
-                        d="M22.3,-29.3C29,-25.9,34.5,-19.4,37.9,-11.6C41.4,-3.8,42.9,5.3,40.6,13.4C38.3,21.6,32.2,28.8,24.8,34.2C17.4,39.7,8.7,43.4,-0.5,44.1C-9.7,44.8,-19.3,42.4,-24.9,36.3C-30.6,30.3,-32.1,20.6,-33.4,12C-34.6,3.3,-35.6,-4.3,-34.8,-12.8C-34,-21.3,-31.6,-30.6,-25.5,-34.3C-19.4,-37.9,-9.7,-35.7,-0.9,-34.4C7.8,-33.2,15.7,-32.8,22.3,-29.3Z"
-                        width="100%" height="100%" transform="translate(50 40)" stroke-width="0"
-                        style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
-                </mask>
-                <g mask="url(#mask1)">
-                    <path fill="url(#sw-gradient)"
-                        d="M22.3,-29.3C29,-25.9,34.5,-19.4,37.9,-11.6C41.4,-3.8,42.9,5.3,40.6,13.4C38.3,21.6,32.2,28.8,24.8,34.2C17.4,39.7,8.7,43.4,-0.5,44.1C-9.7,44.8,-19.3,42.4,-24.9,36.3C-30.6,30.3,-32.1,20.6,-33.4,12C-34.6,3.3,-35.6,-4.3,-34.8,-12.8C-34,-21.3,-31.6,-30.6,-25.5,-34.3C-19.4,-37.9,-9.7,-35.7,-0.9,-34.4C7.8,-33.2,15.7,-32.8,22.3,-29.3Z"
-                        width="100%" height="100%" transform="translate(50 40)" stroke-width="0"
-                        style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
-                    <image class="newImage" x="37" y="6" href="mybitemoji.png"></image>
-                </g>
-            </svg>
-           
-        </div>
-        
-    </div>
-
-    
-
+      </div>
+      </div>
 
     <div class="row">
       <div class="col-md-12">
