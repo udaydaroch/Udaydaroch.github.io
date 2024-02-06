@@ -80,8 +80,8 @@ body {
 
 @media (min-width: 992px) {
   .text {
-    margin-top: -190px; /* Removed margin-top to bring text closer to SVG */
-    margin-left: 20px; /* Adjusted margin-left to create space between SVG and text */
+    margin-top: -190px; 
+    margin-left: 20px; 
   }
   #sw-js-blob-svg{
     margin-top: -190px;
