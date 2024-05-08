@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   
-  <title>HOM</title>
+  <title>home page</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary"data-bs-theme="dark" >
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top"data-bs-theme="dark" >
     <div class="container-fluid">
       <a class="navbar-brand" href="#">MY PORTFOLIO</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 dropdown-menu-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
@@ -25,7 +25,7 @@
             <a class="nav-link" href="https://github.com/udaydaroch">Github</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="CV.html">CV</a>
+            <li><a class="nav-link" href="CV.pdf" download>CV</a></li>
           </li>
 
           <li class="nav-item dropdown">
@@ -50,105 +50,112 @@
       </div>
     </div>
   </nav>
-  <section>
-    <img class ="python" src="python.png">
-    <img class ="C" src="C.png">
-    
-    <img class="J" src="J.png">
-    <img class="CSS" src="CSS.png">
-    <img class="HTML" src="HTML.png">
-    <img class="bat" src="Bat.png">
-  
-    <div class="box">
-      <img id='ball'src="CRICKETBALL/cricket (2).png" class="updown">
-    </div>
-    <section class="home">
-  
-      <div class="myStuff"> 
-        <img class ="otherbackground" src="desk.png"></img>
-        <a class="me" href="#me"> About me</a>
-        <a class="cricket" href="#cricket"> Cricket</a>
-        <a class="ucisa" href="https://www.instagram.com/ucisanz/">UCISA </a>
-      </div>
-      <div class="home_top_info">
-        
-        <img class="table-image" src="table.png"> </img>
-        <div class="computer"> 
-        <h1 class="home__title">   Hi,<br>I'am <span class="home__title-color">Uday Daroch.</span><br> 3rd year<br> Software Engineer.</h1>
-        <img class="background-image" alt="Background-Image" src="laptop.png"> </img>
-      </div>
-      <div class="ballContainer" > 
-        <div class="ball"></div>
-      </div>
-      <img class="JS" src="JS.png">
-     
-      </div>
-      <img class="Csharp" src="Csharp.png">
-  </section>
-</section> 
-  
-        <div class="aboutme"> 
-          <div class="aboutmesection">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        
-          <h2  id="me">ABOUT <span>  ME</span></h2> 
-          <p class="AboutmePara">I'm a hardworking student with a genuine love for learning.</p>
-          <p class="AboutmePara">Dive into the world of software engineering, and you'll find me right</p></p>
-          <p class="AboutmePara">in my element. The journey has been fantastic, filled with grasping coding</p>
-          <p class="AboutmePara"> concepts and turning them into cool projects, like cycleways.</p>
-          <p class="AboutmePara">(check out the CV for more details about Cycleways and many other projects)</p>
-          <br>
-          <p class="AboutmePara"> Outside the academic hustle, you'll catch me on a run, playing cricket, </p>
-          <p class="AboutmePara"> hitting the gym,and soaking up good times with friends and family.</p>
-          <p class="AboutmePara"> </p>
-          <p class="AboutmePara">I'm all about meeting new people and embracing whatever life</p> 
-          <p class=" AboutmePara">throws my way - its the spice that keeps my journey </p>
-          <p class="AboutmePara">exciting and colorful!</p>
-          <br> 
-          <br> 
-          <br>
-          <br>
-          <br>
-          <br>
-        </div>
-          <div class="mycricketsection"></div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-            <h2 id="cricket">MY <span> CRICKET</span></h2> 
-            <p class="AboutmePara">I am a big fan of cricket. 
-              I have been playing cricket since primary school, </p>
-            <p class="AboutmePara">when I first came to NZ. I have represented my Intermediate and high school in cricket </p>
-            <p class="AboutmePara">and I have played under 15 Canterbury.</p>
-            <br>
-            <p class="AboutmePara">After highschool I started playing club cricket and represented St albans club div 2.</p>
-            <p class="AboutmePara">Currently, I am playing for the OBC club. The offical playHQ homepage for my club is
-              <a href="https://www.playhq.com/new-zealand-cricket/org/old-boys-collegians-cc-obc/8dcf0ed4/cmca-adult-summer-202324/96c00bb7/teams">this.</a></p>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-          
-        </div>
-        
 
-          <img class="mybitemoji" src="mybitemoji.png">
-          <img class="OBC" src="OBC.jpg">
-          <img class="batsman" src="batsmen.png">
-          <img class="running" src="running.png">
-          <img class="dumbell" src="dumbell.png">
-          <img class="SQL" src="SQL.png">
+  <section class="container mt-4">
+    <div id="first-section" class="row">
+      <div class="col-md-6 order-md-2 d-flex justify-content-center" style="color: #8B4513;">
+        <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1"
+          width="200%" height="100%" style="max-width: 1000px; order: 1;">
+          <defs>
+              <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                  <stop id="stop1" stop-color="rgba(225.943, 225.943, 225.943, 1)" offset="0%"></stop>
+                  <stop id="stop2" stop-color="rgba(0, 156.081, 255, 0.73)" offset="100%"></stop>
+              </linearGradient>
+          </defs>
+          <mask id="mask1" mask-type="alpha">
+              <path fill="url(#sw-gradient)"
+                  d="M22.3,-29.3C29,-25.9,34.5,-19.4,37.9,-11.6C41.4,-3.8,42.9,5.3,40.6,13.4C38.3,21.6,32.2,28.8,24.8,34.2C17.4,39.7,8.7,43.4,-0.5,44.1C-9.7,44.8,-19.3,42.4,-24.9,36.3C-30.6,30.3,-32.1,20.6,-33.4,12C-34.6,3.3,-35.6,-4.3,-34.8,-12.8C-34,-21.3,-31.6,-30.6,-25.5,-34.3C-19.4,-37.9,-9.7,-35.7,-0.9,-34.4C7.8,-33.2,15.7,-32.8,22.3,-29.3Z"
+                  width="100%" height="100%" transform="translate(50 50)" stroke-width="0"
+                  style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
+          </mask>
+          <g mask="url(#mask1)">
+              <path fill="url(#sw-gradient)"
+                  d="M22.3,-29.3C29,-25.9,34.5,-19.4,37.9,-11.6C41.4,-3.8,42.9,5.3,40.6,13.4C38.3,21.6,32.2,28.8,24.8,34.2C17.4,39.7,8.7,43.4,-0.5,44.1C-9.7,44.8,-19.3,42.4,-24.9,36.3C-30.6,30.3,-32.1,20.6,-33.4,12C-34.6,3.3,-35.6,-4.3,-34.8,-12.8C-34,-21.3,-31.6,-30.6,-25.5,-34.3C-19.4,-37.9,-9.7,-35.7,-0.9,-34.4C7.8,-33.2,15.7,-32.8,22.3,-29.3Z"
+                  width="100%" height="100%" transform="translate(50 50)" stroke-width="0"
+                  style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
+              <image class="newImage" x="37" y="16" href="mybitemoji.png"></image>
+          </g>
+      </svg>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="text">
+          <div class="text-container">
+            <p style="font-size: 2em; margin-bottom: 5px;">Hi, my name is </p>
+            <p style="font-size: 2em; margin-bottom: 5px;">Uday Daroch.</p>
+            <p style="font-size: 2em; margin-bottom: 5px;">I am a third-year </p>
+            <p style="font-size: 2em; margin-bottom: 10px;">software engineer.</p>
+            <div class="row">
+              <div class="col">
+                <a onclick="scrollToSection('me')" class="custom-link">About me
+                  <span class="hover-effect"></span>
+                </a>
+                <a href="https://ucisagallery.000webhostapp.com/#" class="custom-link">UCISA
+                  <span class="hover-effect"></span>
+                </a>
+                <a onclick="scrollToSection('cricket')" class="custom-link">Cricket
+                  <span class="hover-effect"></span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-    
+      </div>
+      </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="aboutme">
+          <br>
+          <br>
+          <br>
+          <div class="aboutmesection">
+            <h2 id="me" class="text-center">ABOUT <span> ME</span></h2>
+            <p class="AboutmePara text-center">I'm a hardworking student with a genuine love for learning.</p>
+            <p class="AboutmePara text-center">Dive into the world of software engineering, and you'll find me right</p></p>
+            <p class="AboutmePara text-center">in my element. The journey has been fantastic, filled with grasping coding</p>
+            <p class="AboutmePara text-center"> concepts and turning them into cool projects, like cycleways.</p>
+            <p class="AboutmePara text-center">(check out the CV for more details about Cycleways and many other projects)</p>
+            <br>
+            <p class="AboutmePara text-center"> Outside the academic hustle, you'll catch me on a run, playing cricket, </p>
+            <p class="AboutmePara text-center"> hitting the gym,and soaking up good times with friends and family.</p>
+            <p class="AboutmePara text-center"> </p>
+            <p class="AboutmePara text-center">I'm all about meeting new people and embracing whatever life</p> 
+            <p class="AboutmePara text-center">throws my way - its the spice that keeps my journey </p>
+            <p class="AboutmePara text-center">exciting and colorful!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <br>
+          <br>
+          <br>
+        <div class="mycricketsection">
+          <h2 id="cricket" class="text-center">MY <span> CRICKET</span></h2>
+          <p class="AboutmePara text-center">I am a big fan of cricket. 
+            I have been playing cricket since primary school, </p>
+          <p class="AboutmePara text-center">when I first came to NZ. I have represented my Intermediate  </p>
+          <p class="AboutmePara text-center">and high school in cricket and I have played under 15 Canterbury.</p>
+          <br>
+          <p class="AboutmePara text-center">After highschool I started playing club cricket and represented St albans club </p>
+          <p class="AboutmePara text-center"> div 2. Currently, I am playing for the OBC club. The offical playHQ homepage for my club  is</p>
+            <p class="AboutmePara text-center"> <a href="https://www.playhq.com/new-zealand-cricket/org/old-boys-collegians-cc-obc/8dcf0ed4/cmca-adult-summer-202324/96c00bb7/teams">this.</a></p>
+        </div>
+        <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        
+      </div>
+    </div>
+  </section>
+
 
     
 
