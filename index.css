@@ -7,6 +7,19 @@ body {
   padding-top: 20px;
 }
 
+.image-container {
+  width: 100%; /* Adjust as needed */
+  height: 200px; /* Set the desired height */
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  position: absolute;
+  bottom: -10px; /* Adjust this value to control the cropping */
+}
+
 .custom-link {
   margin-right: 20px;
   color: #007BFF;
