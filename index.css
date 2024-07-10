@@ -190,7 +190,7 @@ body {
 }
 
 .card-body {
-  padding: 20px;
+  padding: 23px;
 }
 
 .card-title {
@@ -208,7 +208,10 @@ body {
   display: flex;
   justify-content: center;
 }
-
+.btn {
+  height: 40px; /* Ensure both buttons have the same height */
+  padding: 10px 20px; /* Consistent padding */
+}
 
 .btn-primary {
   background-color: #007bff;
