@@ -7,6 +7,37 @@ body {
   padding-top: 20px;
 }
 
+.intro p {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: showUp 0.5s forwards;
+}
+
+.intro p:nth-of-type(1) {
+  animation-delay: 0.2s;
+}
+
+.intro p:nth-of-type(2) {
+  animation-delay: 0.4s;
+}
+
+.intro p:nth-of-type(3) {
+  animation-delay: 0.6s;
+}
+
+.intro p:nth-of-type(4) {
+  animation-delay: 0.8s;
+}
+
+@keyframes showUp {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+
 .image-container {
   width: 100%; /* Adjust as needed */
   height: 200px; /* Set the desired height */
